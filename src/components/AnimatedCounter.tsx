@@ -17,6 +17,7 @@ export default function AnimatedCounter({
   const ref = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
+    const currentRef = ref.current;
     const observer = new IntersectionObserver(
       (entries) => {
         const [entry] = entries;
@@ -30,20 +31,20 @@ export default function AnimatedCounter({
             if (progress < 1) requestAnimationFrame(step);
           };
           requestAnimationFrame(step);
-          if (ref.current) {
-            observer.unobserve(ref.current);
+          if (currentRef) {
+            observer.unobserve(currentRef);
           }
         }
       },
       { threshold: 0.3 }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (ref.current) observer.unobserve(ref.current);
+      if (currentRef) observer.unobserve(currentRef);
     };
   }, [target, duration]);
 
