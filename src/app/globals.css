@@ -372,7 +372,7 @@ h1 {
 .science-lead { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 2.5rem; line-height: 1.7; }
 .science-steps { display: flex; flex-direction: column; gap: 2rem; }
 .sci-step { display: flex; gap: 1.5rem; align-items: flex-start; }
-.sci-num { font-family: var(--font-head); font-size: 3rem; font-weight: 900; color: var(--border); line-height: 1; flex-shrink: 0; width: 60px; }
+.sci-num { font-family: var(--font-head); font-size: 3rem; font-weight: bold; color: #009dff; line-height: 1; flex-shrink: 0; width: 60px; filter: drop-shadow(0 2px 4px rgba(0, 157, 255, 0.3)); }
 .sci-content h4 { font-size: 1.1rem; margin-bottom: .4rem; }
 .sci-content p { color: var(--text-muted); font-size: .95rem; }
 .science-visual { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
@@ -384,9 +384,7 @@ h1 {
 .kit-section { padding: 6rem 0; background: var(--bg-2); }
 .kit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; margin-top: 2rem; }
 @media(max-width:860px) { .kit-grid { grid-template-columns: 1fr; } }
-.kit-img-stack { position: relative; display: flex; flex-direction: column; gap: 1rem; }
-.kit-img-main { border-radius: var(--r-lg); border: 1px solid var(--border); background: var(--bg-card); object-fit: contain; max-height: 300px; padding: 1rem; }
-.kit-img-secondary { border-radius: var(--r-md); border: 1px solid var(--border); background: var(--bg-card); object-fit: contain; max-height: 200px; padding: 1rem; opacity: .85; }
+
 .kit-includes { display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2rem; }
 .ki-item { display: flex; gap: 1.25rem; align-items: center; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r-md); padding: 1.25rem; transition: var(--trans); }
 .ki-item:hover { border-color: var(--border-hover); }

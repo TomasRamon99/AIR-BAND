@@ -8,8 +8,7 @@ interface KitSectionProps {
 }
 
 export default function KitSection({ color, setColor }: KitSectionProps) {
-  // Config filter to simulate black box
-  const imageFilter = color === "negro" ? "invert(1) hue-rotate(180deg) brightness(80%)" : "none";
+  // Config filter to simulate black box - No longer needed since we have real images
 
   return (
     <section id="kit" className="kit-section">
@@ -21,22 +20,14 @@ export default function KitSection({ color, setColor }: KitSectionProps) {
           Diseñado para usarse apenas lo sacás de la caja. Todo lo necesario para 1 mes o más de respiración óptima.
         </p>
         <div className="kit-grid">
-          <div className="kit-img-stack reveal">
+          <div className="kit-img-wrapper reveal" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <Image
-              src="/assets/front.png"
-              alt={`Kit AIRBAND Packaging ${color.toUpperCase()}`}
-              width={500}
-              height={500}
-              className="kit-img-main floating"
-              style={{ filter: imageFilter, transition: "filter 0.5s ease" }}
-            />
-            <Image
-              src="/assets/back.png"
-              alt="Kit AIRBAND Packaging Reverso"
-              width={300}
-              height={300}
-              className="kit-img-secondary"
-              style={{ filter: imageFilter, transition: "filter 0.5s ease" }}
+              src={color === "blanco" ? "/assets/kit-blanco.png" : "/assets/kit-negro.png"}
+              alt={`Kit AIRBAND ${color.toUpperCase()}`}
+              width={600}
+              height={600}
+              className="floating"
+              style={{ objectFit: 'contain', maxHeight: '500px', width: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))', transition: 'all 0.5s ease' }}
             />
           </div>
           <div className="kit-details reveal-right">

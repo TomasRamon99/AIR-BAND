@@ -13,7 +13,7 @@ import FinalCtaSection from "../components/FinalCtaSection";
 import MouthTapeSection from "../components/MouthTapeSection";
 
 export default function Home() {
-  const [activeColor, setActiveColor] = useState<"blanco" | "negro">("blanco");
+  const [activeColor, setActiveColor] = useState<"blanco" | "negro">("negro");
 
   useEffect(() => {
     // SCROLL REVEAL ANIMATION
@@ -67,7 +67,7 @@ export default function Home() {
       <TestimoniosSection />
       <MouthTapeSection />
       <FaqSection />
-      <FinalCtaSection />
+      <FinalCtaSection color={activeColor} />
     </main>
   );
 }
