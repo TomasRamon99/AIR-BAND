@@ -37,14 +37,13 @@ export default function ScienceSection() {
               </div>
             </div>
           </div>
-          <div className="science-visual reveal-right" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div className="science-visual reveal-right">
             <Image
               src="/assets/bandas-magneticas-negras-y-blancas.png"
               alt="Bandas Magnéticas Blancas y Negras"
               width={500}
               height={500}
               className="science-img floating"
-              style={{ objectFit: 'contain', width: '100%', maxHeight: '450px', borderRadius: 'var(--r-lg)', boxShadow: '0 20px 40px rgba(0,0,0,0.4)', background: 'var(--bg-card)' }}
             />
           </div>
         </div>
