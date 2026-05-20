@@ -9,7 +9,7 @@ export default function BenefitsSection() {
         <div className="benefits-grid">
           <div className="benefit-card reveal">
             <div className="bc-icon bc-icon-sleep">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
               </svg>
             </div>
@@ -26,7 +26,7 @@ export default function BenefitsSection() {
           </div>
           <div className="benefit-card reveal delay-1">
             <div className="bc-icon bc-icon-energy">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
               </svg>
             </div>
@@ -43,7 +43,7 @@ export default function BenefitsSection() {
           </div>
           <div className="benefit-card reveal delay-2">
             <div className="bc-icon bc-icon-sport">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <circle cx="12" cy="12" r="10"></circle>
                 <polyline points="12 6 12 12 16 14"></polyline>
               </svg>

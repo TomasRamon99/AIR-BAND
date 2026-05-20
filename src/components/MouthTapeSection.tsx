@@ -8,7 +8,7 @@ export default function MouthTapeSection() {
           <div className="section-tag" style={{ color: "#0099ff", borderColor: "rgba(0,153,255,0.4)", background: "rgba(0,153,255,0.1)" }}>
             Próximamente
           </div>
-          <h2 className="section-title reveal" style={{ fontSize: "clamp(2.5rem, 6vw, 4rem)", marginBottom: "1.5rem" }}>
+          <h2 className="section-title reveal" style={{ marginBottom: "1.5rem" }}>
             <span style={{ color: "var(--text-muted)" }}>Cerrá la boca.</span>
             <br />
             <span style={{ color: "#009dff", textShadow: "0 0 20px rgba(0, 157, 255, 0.4)" }}>Abrí tu rendimiento.</span>

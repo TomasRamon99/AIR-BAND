@@ -46,28 +46,26 @@ export default function HeroSection({ color }: HeroSectionProps) {
               <span>Días de Uso</span>
             </div>
           </div>
-          <div className="hero-cta reveal delay-4" style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-            <div style={{ width: '100%' }}>
-              <a
-                href={mlLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary btn-xl"
-                style={{ width: '100%', justifyContent: 'center' }}
-              >
-                Comprá en MercadoLibre →
-              </a>
-              <div style={{ textAlign: 'center', marginTop: '0.5rem', fontSize: '0.85rem', color: '#00a650', fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px' }}>
-                <svg width="12" height="14" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.68597 12.839C4.5492 12.9806 4.31688 12.9649 4.20456 12.8066L0.067332 6.96963C-0.0381652 6.82071 0.0682283 6.61111 0.250555 6.61111H3.66667V0.5C3.66667 0.223858 3.89052 0 4.16667 0H5.77259C5.93291 0 6.08272 0.0815468 6.16601 0.213897L9.93202 6.19838C10.0463 6.37989 9.91617 6.61111 9.70271 6.61111H5.83333V12.3333C5.83333 12.5855 5.53982 12.723 5.34651 12.5627L4.68597 12.839Z" fill="#00a650"/></svg>
-                Envío Full - ¡Llega mañana!
-              </div>
+          <div className="hero-cta reveal delay-4" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.7rem' }}>
+            <a
+              href={mlLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn-xl hero-cta-item"
+              style={{ justifyContent: 'center' }}
+            >
+              Comprá en MercadoLibre →
+            </a>
+            <div style={{ textAlign: 'center', fontSize: '0.85rem', color: '#00a650', fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px' }}>
+              <svg width="12" height="14" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.68597 12.839C4.5492 12.9806 4.31688 12.9649 4.20456 12.8066L0.067332 6.96963C-0.0381652 6.82071 0.0682283 6.61111 0.250555 6.61111H3.66667V0.5C3.66667 0.223858 3.89052 0 4.16667 0H5.77259C5.93291 0 6.08272 0.0815468 6.16601 0.213897L9.93202 6.19838C10.0463 6.37989 9.91617 6.61111 9.70271 6.61111H5.83333V12.3333C5.83333 12.5855 5.53982 12.723 5.34651 12.5627L4.68597 12.839Z" fill="#00a650"/></svg>
+              Envío Full - ¡Llega mañana!
             </div>
             <a
               href="https://www.mercadolibre.com.ar/bandas-nasales-magneticas-kit-antironquidos-kit-30-dias/up/MLAU3645400696"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-ghost btn-xl"
-              style={{ width: '100%', justifyContent: 'center', borderColor: 'var(--border)', color: 'var(--text-muted)', fontSize: '1rem', padding: '0.8rem' }}
+              className="btn btn-ghost btn-xl hero-cta-item"
+              style={{ justifyContent: 'center', borderColor: 'var(--border)', color: 'var(--text-muted)' }}
             >
               Ver publicación con cuotas sin interés
             </a>
@@ -75,8 +73,8 @@ export default function HeroSection({ color }: HeroSectionProps) {
               href="https://link.mercadopago.com.ar/airband_directo"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-ghost btn-xl"
-              style={{ width: '100%', justifyContent: 'center', borderColor: 'var(--accent)', color: 'var(--accent)' }}
+              className="btn btn-ghost btn-xl hero-cta-item"
+              style={{ justifyContent: 'center', borderColor: 'var(--accent)', color: 'var(--accent)' }}
             >
               Pago Directo (Mercado Pago) — <strong style={{ marginLeft: '6px' }}>10% OFF</strong>
             </a>
