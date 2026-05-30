@@ -19,21 +19,7 @@ export default function MouthTapeSection() {
             El <em>Combo Biohacker</em> definitivo.
           </p>
 
-          <div className="mtp-glow reveal delay-2" style={{
-            margin: "0 auto",
-            width: "100%",
-            maxWidth: "900px",
-            borderRadius: "var(--r-lg)",
-            background: "linear-gradient(135deg, rgba(0, 153, 255, 0.05) 0%, rgba(0, 0, 0, 0.5) 100%)",
-            border: "1px solid rgba(0, 153, 255, 0.2)",
-            padding: "2.5rem",
-            boxShadow: "0 0 40px rgba(0, 153, 255, 0.15), inset 0 0 20px rgba(0, 153, 255, 0.1)",
-            position: "relative",
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-            gap: "2.5rem",
-            alignItems: "center"
-          }}>
+          <div className="mtp-container reveal delay-2">
             <Image
               src="/assets/mouth-tape-front.png"
               alt="Mouth Tape Pro Front"

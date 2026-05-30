@@ -18,23 +18,10 @@ export default function FinalCtaSection({ color = "blanco" }: FinalCtaSectionPro
           Probá el sistema magnético AIRBAND. Tu rendimiento y tu descanso nunca volverán a ser los mismos.
         </p>
 
-        <div className="fct-price-block reveal delay-2" style={{ border: 'none', background: 'transparent', padding: 0 }}>
-          <div className="dual-checkout-grid" style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-            gap: '2rem',
-            textAlign: 'left'
-          }}>
+        <div className="fct-price-block reveal delay-2" style={{ border: 'none', background: 'transparent', padding: 0, width: '100%', maxWidth: '750px', margin: '0 auto 2.5rem', display: 'block' }}>
+          <div className="dual-checkout-grid">
             {/* Card Mercado Libre */}
-            <div style={{
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border)',
-              borderRadius: 'var(--r-lg)',
-              padding: '2rem',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '1rem'
-            }}>
+            <div className="checkout-card">
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span style={{ fontSize: '1.5rem' }}>📦</span>
                 <h4 style={{ margin: 0, fontSize: '1.2rem' }}>Mercado Libre</h4>
@@ -63,17 +50,7 @@ export default function FinalCtaSection({ color = "blanco" }: FinalCtaSectionPro
             </div>
 
             {/* Card Mercado Pago (Directo) */}
-            <div style={{
-              background: 'linear-gradient(135deg, rgba(0, 153, 255, 0.1) 0%, var(--bg-card) 100%)',
-              border: '1px solid var(--accent)',
-              borderRadius: 'var(--r-lg)',
-              padding: '2rem',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '1rem',
-              position: 'relative',
-              overflow: 'hidden'
-            }}>
+            <div className="checkout-card recommended">
               <div style={{ position: 'absolute', top: 0, right: 0, background: 'var(--accent)', color: '#fff', padding: '0.3rem 1rem', fontSize: '0.8rem', fontWeight: 700, borderBottomLeftRadius: 'var(--r-md)' }}>
                 RECOMENDADO
               </div>

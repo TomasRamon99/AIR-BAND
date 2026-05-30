@@ -15,14 +15,14 @@ export default function HowSection() {
             <h4>Prepará la Piel</h4>
             <p>Lavá y secá bien la superficie de tu nariz para eliminar grasitud y garantizar la máxima fijación.</p>
           </div>
-          <div className="how-arrow reveal delay-1">→</div>
+          <div className="how-arrow reveal delay-1 hide-mobile">→</div>
           <div className="how-step reveal delay-2">
             <div className="hs-num">2</div>
             <div className="hs-icon">🧲</div>
             <h4>Aplicá los Adhesivos</h4>
             <p>Ayudate con el aplicador magnético y dejá que los adhesivos de acero fijen a los costados de la nariz.</p>
           </div>
-          <div className="how-arrow reveal delay-3">→</div>
+          <div className="how-arrow reveal delay-3 hide-mobile">→</div>
           <div className="how-step reveal delay-4">
             <div className="hs-num">3</div>
             <div className="hs-icon">🌬️</div>
