@@ -52,7 +52,7 @@ export default function Navbar() {
           <li><a href="#testimonios" onClick={closeMenu}>Reseñas</a></li>
         </ul>
         <a
-          href="https://www.mercadolibre.com.ar/dilatador-nasal-mejora-respiracion-ronquidos-60-adhesivos/p/MLA2062732915"
+          href="https://www.mercadolibre.com.ar/dilatador-magnetico-nasal-kit-air-band-4-bandas-60adhesivos/up/MLAU3417409179"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary nav-cta"
@@ -76,7 +76,7 @@ export default function Navbar() {
         <a href="#kit" className="mobile-link" onClick={closeMenu}>El Kit</a>
         <a href="#testimonios" className="mobile-link" onClick={closeMenu}>Reseñas</a>
         <a
-          href="https://www.mercadolibre.com.ar/dilatador-nasal-mejora-respiracion-ronquidos-60-adhesivos/p/MLA2062732915"
+          href="https://www.mercadolibre.com.ar/dilatador-magnetico-nasal-kit-air-band-4-bandas-60adhesivos/up/MLAU3417409179"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary"

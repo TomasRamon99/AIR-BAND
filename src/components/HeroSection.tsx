@@ -10,8 +10,12 @@ interface HeroSectionProps {
 export default function HeroSection({ color }: HeroSectionProps) {
 
   const mlLink = color === "negro" 
-    ? "https://www.mercadolibre.com.ar/dilatador-nasal-mejora-respiracion-ronquidos-60-adhesivos/p/MLA2062732915?pdp_filters=item_id%3AMLA1533672631" 
-    : "https://www.mercadolibre.com.ar/dilatador-nasal-mejora-respiracion-ronquidos-60-adhesivos/p/MLA2062732915?pdp_filters=item_id%3AMLA2762599018";
+    ? "https://www.mercadolibre.com.ar/dilatador-magnetico-nasal-kit-air-band-4-bandas-60adhesivos/up/MLAU3417409179" 
+    : "https://www.mercadolibre.com.ar/dilatador-magnetico-nasal-kit-air-band-blanco-60adhesivos/up/MLAU3718266768";
+
+  const tiendaNubeLink = color === "negro"
+    ? "https://airband.mitiendanube.com/productos/dilatador-magnetico-nasal-kit-air-band-4-bandas-color-negro-60-adhesivos-fhiw6/"
+    : "https://airband.mitiendanube.com/productos/dilatador-magnetico-nasal-kit-air-band-4-bandas-color-blanco-60-adhesivos-1p3h0/";
 
   return (
     <>
@@ -70,13 +74,13 @@ export default function HeroSection({ color }: HeroSectionProps) {
               Ver publicación con cuotas sin interés
             </a>
             <a
-              href="https://link.mercadopago.com.ar/airband_directo"
+              href={tiendaNubeLink}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-xl hero-cta-item"
               style={{ justifyContent: 'center', borderColor: 'var(--accent)', color: 'var(--accent)' }}
             >
-              Pago Directo (Mercado Pago) — <strong style={{ marginLeft: '6px' }}>10% OFF</strong>
+              Pago Directo (Tienda Nube) — <strong style={{ marginLeft: '6px' }}>10% OFF</strong>
             </a>
           </div>
           <p className="hero-disclaimer reveal delay-4">

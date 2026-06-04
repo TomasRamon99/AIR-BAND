@@ -4,8 +4,12 @@ interface FinalCtaSectionProps {
 
 export default function FinalCtaSection({ color = "blanco" }: FinalCtaSectionProps) {
   const mlLink = color === "negro"
-    ? "https://www.mercadolibre.com.ar/dilatador-nasal-mejora-respiracion-ronquidos-60-adhesivos/p/MLA2062732915?pdp_filters=item_id%3AMLA1533672631"
-    : "https://www.mercadolibre.com.ar/dilatador-nasal-mejora-respiracion-ronquidos-60-adhesivos/p/MLA2062732915?pdp_filters=item_id%3AMLA2762599018";
+    ? "https://www.mercadolibre.com.ar/dilatador-magnetico-nasal-kit-air-band-4-bandas-60adhesivos/up/MLAU3417409179"
+    : "https://www.mercadolibre.com.ar/dilatador-magnetico-nasal-kit-air-band-blanco-60adhesivos/up/MLAU3718266768";
+
+  const tiendaNubeLink = color === "negro"
+    ? "https://airband.mitiendanube.com/productos/dilatador-magnetico-nasal-kit-air-band-4-bandas-color-negro-60-adhesivos-fhiw6/"
+    : "https://airband.mitiendanube.com/productos/dilatador-magnetico-nasal-kit-air-band-4-bandas-color-blanco-60-adhesivos-1p3h0/";
 
   return (
     <section className="final-cta">
@@ -56,7 +60,7 @@ export default function FinalCtaSection({ color = "blanco" }: FinalCtaSectionPro
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span style={{ fontSize: '1.5rem' }}>💳</span>
-                <h4 style={{ margin: 0, fontSize: '1.2rem', color: 'var(--accent)' }}>Pago Directo (MP)</h4>
+                <h4 style={{ margin: 0, fontSize: '1.2rem', color: 'var(--accent)' }}>Pago Directo (Tienda Nube)</h4>
               </div>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', margin: 0, flex: 1 }}>
                 Al evitar comisiones de la plataforma, te transferimos el ahorro a vos con un <strong>10% OFF permanente</strong>.
@@ -66,7 +70,7 @@ export default function FinalCtaSection({ color = "blanco" }: FinalCtaSectionPro
                 <span style={{ textDecoration: 'line-through', color: 'var(--text-dim)', fontSize: '1.1rem' }}>$22.000</span>
               </div>
               <a
-                href="https://link.mercadopago.com.ar/airband_directo"
+                href={tiendaNubeLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"

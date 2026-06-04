@@ -8,7 +8,9 @@ interface KitSectionProps {
 }
 
 export default function KitSection({ color, setColor }: KitSectionProps) {
-  // Config filter to simulate black box - No longer needed since we have real images
+  const tiendaNubeLink = color === "negro"
+    ? "https://airband.mitiendanube.com/productos/dilatador-magnetico-nasal-kit-air-band-4-bandas-color-negro-60-adhesivos-fhiw6/"
+    : "https://airband.mitiendanube.com/productos/dilatador-magnetico-nasal-kit-air-band-4-bandas-color-blanco-60-adhesivos-1p3h0/";
 
   return (
     <section id="kit" className="kit-section">
@@ -67,13 +69,13 @@ export default function KitSection({ color, setColor }: KitSectionProps) {
                   className={`color-opt ${color === "negro" ? "active" : ""}`}
                   onClick={() => setColor("negro")}
                 >
-                  Negro Exclusivo
+                  Negro
                 </div>
               </div>
             </div>
             <div className="kit-actions">
               <a
-                href="https://link.mercadopago.com.ar/airband_directo"
+                href={tiendaNubeLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary btn-xl kit-cta"
