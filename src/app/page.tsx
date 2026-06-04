@@ -9,7 +9,6 @@ import KitSection from "../components/KitSection";
 import HowSection from "../components/HowSection";
 import TestimoniosSection from "../components/TestimoniosSection";
 import FaqSection from "../components/FaqSection";
-import FinalCtaSection from "../components/FinalCtaSection";
 import MouthTapeSection from "../components/MouthTapeSection";
 
 export default function Home() {
@@ -67,7 +66,6 @@ export default function Home() {
       <TestimoniosSection />
       <MouthTapeSection />
       <FaqSection />
-      <FinalCtaSection color={activeColor} />
     </main>
   );
 }

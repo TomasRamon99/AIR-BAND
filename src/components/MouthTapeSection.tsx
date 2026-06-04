@@ -6,8 +6,13 @@ import Image from "next/image";
 export default function MouthTapeSection() {
   const [tapeColor, setTapeColor] = useState<"negro" | "rosado">("negro");
 
-  // El usuario enviará luego los links específicos de tienda nube para la cinta
-  const shopLink = "https://airband.mitiendanube.com/";
+  const tiendaNubeLink = tapeColor === "negro"
+    ? "https://airband.mitiendanube.com/productos/cinta-bucal-antironquidos-airband-mouth-tape-pro-descanso-30-unidades-14hba/"
+    : "https://airband.mitiendanube.com/productos/cinta-bucal-antironquidos-airband-mouth-tape-pro-descanso-30-unidades-rosado-1khrm/";
+
+  const mlLink = tapeColor === "negro"
+    ? "https://www.mercadolibre.com.ar/cinta-bucal-antironquidos-airband-mouth-tape-pro-descanso/up/MLAU3956564132"
+    : "https://www.mercadolibre.com.ar/cinta-bucal-antironquidos-airband-mouth-tape-pro-descanso-30/p/MLA2083053795?pdp_filters=item_id%3AMLA3378840240";
 
   return (
     <section id="mouth-tape" className="mouth-tape-section" style={{ padding: "6rem 0", background: "var(--bg)", position: "relative", overflow: "hidden" }}>
@@ -93,13 +98,22 @@ export default function MouthTapeSection() {
 
               <div className="kit-actions" style={{ marginTop: '0.5rem' }}>
                 <a
-                  href={shopLink}
+                  href={tiendaNubeLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary btn-xl kit-cta"
                   style={{ width: '100%', justifyContent: 'center' }}
                 >
-                  Comprar Mouth Tape Pro
+                  Comprar en Tienda Nube (Mejor Precio) →
+                </a>
+                <a
+                  href={mlLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-ghost btn-xl kit-cta"
+                  style={{ width: '100%', justifyContent: 'center', borderColor: 'var(--border)', color: 'var(--text-muted)', marginTop: '0.75rem' }}
+                >
+                  Comprar en Mercado Libre →
                 </a>
               </div>
             </div>
