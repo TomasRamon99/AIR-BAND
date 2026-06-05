@@ -18,21 +18,21 @@ export default function ScienceSection() {
             <div className="sci-step reveal delay-1">
               <div className="sci-num">1</div>
               <div className="sci-content">
-                <h4>Apertura Magnética Magnificada</h4>
+                <h3>Apertura Magnética Magnificada</h3>
                 <p>Las bandas magnéticas aplican una tensión constante que dilata los conductos nasales entre un 30% y un 40% más que la capacidad normal.</p>
               </div>
             </div>
             <div className="sci-step reveal delay-2">
               <div className="sci-num">2</div>
               <div className="sci-content">
-                <h4>Aumento de Óxido Nítrico</h4>
+                <h3>Aumento de Óxido Nítrico</h3>
                 <p>El mayor flujo nasal fomenta la liberación de óxido nítrico, un vasodilatador clave que mejora el transporte de oxígeno en sangre.</p>
               </div>
             </div>
             <div className="sci-step reveal delay-3">
               <div className="sci-num">3</div>
               <div className="sci-content">
-                <h4>Menor Resistencia al Flujo Aéreo</h4>
+                <h3>Menor Resistencia al Flujo Aéreo</h3>
                 <p>Al reducir la resistencia en las vías respiratorias altas, disminuyen los ronquidos y la fatiga muscular respiratoria durante el ejercicio o sueño.</p>
               </div>
             </div>

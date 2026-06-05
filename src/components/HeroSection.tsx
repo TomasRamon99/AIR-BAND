@@ -31,7 +31,8 @@ export default function HeroSection({ color }: HeroSectionProps) {
             <span className="text-gradient">RINDE MÁS.</span>
           </h1>
           <p className="hero-subtitle reveal delay-2">
-            El kit de dilatación nasal magnética más completo del mercado.
+            Dilatador Nasal Magnético<br />
+            Kit con 60 Adhesivos — Calidad Premium<br />
             Diseñado para optimizar tu sueño, tu energía y tu rendimiento.
           </p>
           <div className="hero-stats reveal delay-3">

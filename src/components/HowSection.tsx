@@ -12,21 +12,21 @@ export default function HowSection() {
           <div className="how-step reveal">
             <div className="hs-num">1</div>
             <div className="hs-icon">🧼</div>
-            <h4>Prepará la Piel</h4>
+            <h3>Prepará la Piel</h3>
             <p>Lavá y secá bien la superficie de tu nariz para eliminar grasitud y garantizar la máxima fijación.</p>
           </div>
           <div className="how-arrow reveal delay-1 hide-mobile">→</div>
           <div className="how-step reveal delay-2">
             <div className="hs-num">2</div>
             <div className="hs-icon">🧲</div>
-            <h4>Aplicá los Adhesivos</h4>
+            <h3>Aplicá los Adhesivos</h3>
             <p>Ayudate con el aplicador magnético y dejá que los adhesivos de acero fijen a los costados de la nariz.</p>
           </div>
           <div className="how-arrow reveal delay-3 hide-mobile">→</div>
           <div className="how-step reveal delay-4">
             <div className="hs-num">3</div>
             <div className="hs-icon">🌬️</div>
-            <h4>Colocá la Banda</h4>
+            <h3>Colocá la Banda</h3>
             <p>Elegí la banda más cómoda para vos y pasala por encima. Los imanes harán el resto ensanchando tus vías.</p>
           </div>
         </div>

@@ -13,10 +13,11 @@ export default function AnimatedCounter({
   suffix = "",
   duration = 1500,
 }: AnimatedCounterProps) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(target);
   const ref = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
+    setCount(0);
     const currentRef = ref.current;
     const observer = new IntersectionObserver(
       (entries) => {
