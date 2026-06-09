@@ -10,6 +10,7 @@ import HowSection from "../components/HowSection";
 import TestimoniosSection from "../components/TestimoniosSection";
 import FaqSection from "../components/FaqSection";
 import MouthTapeSection from "../components/MouthTapeSection";
+import ComboSection from "../components/ComboSection";
 
 export default function Home() {
   const [activeColor, setActiveColor] = useState<"blanco" | "negro">("negro");
@@ -71,7 +72,7 @@ export default function Home() {
       "@type": "Offer",
       "url": "https://airbando2.com",
       "priceCurrency": "ARS",
-      "price": "19800.00",
+      "price": "35000.00",
       "availability": "https://schema.org/InStock",
       "seller": {
         "@type": "Organization",
@@ -168,8 +169,9 @@ export default function Home() {
       <ScienceSection />
       <KitSection color={activeColor} setColor={setActiveColor} />
       <HowSection />
-      <TestimoniosSection />
+      <ComboSection />
       <MouthTapeSection />
+      <TestimoniosSection />
       <FaqSection />
     </main>
   );

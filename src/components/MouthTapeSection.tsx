@@ -96,6 +96,17 @@ export default function MouthTapeSection() {
                 </div>
               </div>
 
+              <div className="precio-hero" style={{ margin: "1rem 0", background: "rgba(255,255,255,0.03)", padding: "12px 16px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.05)" }}>
+                <div className="precio-comparativa" style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
+                  <span className="precio-tachado" style={{ textDecoration: "line-through", color: "var(--text-muted)", fontSize: "0.9rem" }}>$34.125 en ML</span>
+                  <span className="precio-principal" style={{ color: "var(--accent)", fontWeight: 800, fontSize: "1.25rem" }}>$25.000 <span className="precio-tag" style={{ fontSize: "0.8rem", fontWeight: 500, color: "var(--text-muted)" }}>en Tienda Nube</span></span>
+                  <span className="descuento-badge" style={{ background: "rgba(0,157,255,0.1)", color: "var(--accent)", padding: "2px 8px", borderRadius: "20px", fontSize: "0.8rem", fontWeight: 700 }}>Ahorrás $9.125</span>
+                </div>
+                <p className="cuotas-texto" style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginTop: "4px", margin: "4px 0 0 0" }}>
+                  Envío gratis incluido
+                </p>
+              </div>
+
               <div className="kit-actions" style={{ marginTop: '0.5rem' }}>
                 <a
                   href={tiendaNubeLink}
@@ -104,7 +115,7 @@ export default function MouthTapeSection() {
                   className="btn btn-primary btn-xl kit-cta"
                   style={{ width: '100%', justifyContent: 'center' }}
                 >
-                  Comprar en Tienda Nube (Mejor Precio) →
+                  Comprar con Ahorro — Tienda Nube →
                 </a>
                 <a
                   href={mlLink}
@@ -113,7 +124,7 @@ export default function MouthTapeSection() {
                   className="btn btn-ghost btn-xl kit-cta"
                   style={{ width: '100%', justifyContent: 'center', borderColor: 'var(--border)', color: 'var(--text-muted)', marginTop: '0.75rem' }}
                 >
-                  Comprar en Mercado Libre →
+                  Ver en Mercado Libre (precio de lista) →
                 </a>
               </div>
             </div>

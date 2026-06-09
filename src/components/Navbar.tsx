@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="announcement-bar">
         <div className="announcement-track">
           <span>
-            ⚡ Envío Full: ¡Llega mañana! &nbsp;·&nbsp; 💳 3 cuotas sin interés &nbsp;·&nbsp; 📦 Kit con 60 adhesivos — el doble que la competencia &nbsp;·&nbsp; ✅ Producto revisado y seguro &nbsp;·&nbsp; ⚡ Envío Full: ¡Llega mañana! &nbsp;·&nbsp; 💳 3 cuotas sin interés &nbsp;·&nbsp; 📦 Kit con 60 adhesivos — el doble que la competencia &nbsp;·&nbsp; ✅ Producto revisado y seguro
+            💳 Hasta $10.900 más barato que en ML &nbsp;·&nbsp; 📦 Envío Full: llega mañana &nbsp;·&nbsp; ✅ 3 cuotas sin interés &nbsp;·&nbsp; 🔒 Compra 100% segura &nbsp;·&nbsp; 💳 Hasta $10.900 más barato que en ML &nbsp;·&nbsp; 📦 Envío Full: llega mañana &nbsp;·&nbsp; ✅ 3 cuotas sin interés &nbsp;·&nbsp; 🔒 Compra 100% segura
           </span>
         </div>
       </div>
@@ -52,12 +52,12 @@ export default function Navbar() {
           <li><a href="#testimonios" onClick={closeMenu}>Reseñas</a></li>
         </ul>
         <a
-          href="https://www.mercadolibre.com.ar/dilatador-magnetico-nasal-kit-air-band-4-bandas-60adhesivos/up/MLAU3417409179"
+          href="https://airband.mitiendanube.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary nav-cta"
         >
-          Comprá Ahora
+          Comprá con Ahorro
         </a>
         <button
           className="mobile-menu-btn"
@@ -76,13 +76,13 @@ export default function Navbar() {
         <a href="#kit" className="mobile-link" onClick={closeMenu}>El Kit</a>
         <a href="#testimonios" className="mobile-link" onClick={closeMenu}>Reseñas</a>
         <a
-          href="https://www.mercadolibre.com.ar/dilatador-magnetico-nasal-kit-air-band-4-bandas-60adhesivos/up/MLAU3417409179"
+          href="https://airband.mitiendanube.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary"
           style={{ marginTop: "1rem" }}
         >
-          Comprá Ahora
+          Comprá con Ahorro
         </a>
       </div>
     </>
