@@ -113,7 +113,7 @@ export default function HeroSection({ color }: HeroSectionProps) {
       {/* SOCIAL PROOF BAR */}
       <section className="social-proof-bar">
         <div className="sp-item">
-          <span className="sp-num"><AnimatedCounter target={56} suffix="+" /></span>
+          <span className="sp-num"><AnimatedCounter target={210} suffix="+" /></span>
           <span className="sp-label">Clientes que Respiran Mejor</span>
         </div>
         <div className="sp-sep">·</div>
