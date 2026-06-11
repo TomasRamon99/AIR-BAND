@@ -57,7 +57,7 @@ export default function Navbar() {
           rel="noopener noreferrer"
           className="btn btn-primary nav-cta"
         >
-          Comprá con Ahorro
+          Comprá con Descuento
         </a>
         <button
           className="mobile-menu-btn"
@@ -82,7 +82,7 @@ export default function Navbar() {
           className="btn btn-primary"
           style={{ marginTop: "1rem" }}
         >
-          Comprá con Ahorro
+          Comprá con Descuento
         </a>
       </div>
     </>

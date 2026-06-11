@@ -75,12 +75,8 @@ export default function HeroSection({ color }: HeroSectionProps) {
               className="btn btn-primary btn-xl hero-cta-item"
               style={{ justifyContent: 'center', width: '100%' }}
             >
-              Comprar con Ahorro — Tienda Nube →
+              Comprar con Descuento →
             </a>
-            <div style={{ textAlign: 'center', fontSize: '0.85rem', color: '#00a650', fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px' }}>
-              <svg width="12" height="14" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.68597 12.839C4.5492 12.9806 4.31688 12.9649 4.20456 12.8066L0.067332 6.96963C-0.0381652 6.82071 0.0682283 6.61111 0.250555 6.61111H3.66667V0.5C3.66667 0.223858 3.89052 0 4.16667 0H5.77259C5.93291 0 6.08272 0.0815468 6.16601 0.213897L9.93202 6.19838C10.0463 6.37989 9.91617 6.61111 9.70271 6.61111H5.83333V12.3333C5.83333 12.5855 5.53982 12.723 5.34651 12.5627L4.68597 12.839Z" fill="#00a650"/></svg>
-              Envío Full - ¡Llega mañana!
-            </div>
             <a
               href={mlLink}
               target="_blank"
@@ -90,6 +86,10 @@ export default function HeroSection({ color }: HeroSectionProps) {
             >
               También disponible en Mercado Libre (precio de lista)
             </a>
+            <div style={{ textAlign: 'center', fontSize: '0.85rem', color: '#00a650', fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', marginTop: '0.2rem' }}>
+              <svg width="12" height="14" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.68597 12.839C4.5492 12.9806 4.31688 12.9649 4.20456 12.8066L0.067332 6.96963C-0.0381652 6.82071 0.0682283 6.61111 0.250555 6.61111H3.66667V0.5C3.66667 0.223858 3.89052 0 4.16667 0H5.77259C5.93291 0 6.08272 0.0815468 6.16601 0.213897L9.93202 6.19838C10.0463 6.37989 9.91617 6.61111 9.70271 6.61111H5.83333V12.3333C5.83333 12.5855 5.53982 12.723 5.34651 12.5627L4.68597 12.839Z" fill="#00a650"/></svg>
+              Envío Full - ¡Llega mañana!
+            </div>
           </div>
           <p className="hero-disclaimer reveal delay-4">
             ★★★★ Calificado en Mercado Libre · 56 opiniones reales · No es un producto médico

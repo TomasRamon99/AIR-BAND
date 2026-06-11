@@ -80,7 +80,7 @@ export default function KitSection({ color, setColor }: KitSectionProps) {
                 rel="noopener noreferrer"
                 className="btn btn-primary btn-xl kit-cta"
               >
-                Comprar Ahora con 10% OFF
+                Comprar con Descuento
               </a>
               <p className="kit-nomed" style={{ marginTop: '1rem' }}>Kit no apto para problemas de salud graves. Consultá a tu médico.</p>
             </div>
