@@ -54,17 +54,17 @@ export default function HeroSection({ color }: HeroSectionProps) {
           <div className="precio-hero reveal delay-3">
             <div className="precio-comparativa">
               <span className="precio-tachado">
-                {color === "negro" ? "$41.898" : "$45.900"} en ML
+                {color === "negro" ? "$45.000" : "$45.900"} en ML
               </span>
               <span className="precio-principal">
-                $35.000 <span className="precio-tag">en Tienda Nube</span>
+                $35.000
               </span>
               <span className="descuento-badge">
-                {color === "negro" ? "Ahorrás $6.898" : "Ahorrás $10.900"}
+                {color === "negro" ? "Hasta 15% de Ahorro" : "Hasta 24% de Ahorro"}
               </span>
             </div>
             <p className="cuotas-texto">
-              Ahorrás {color === "negro" ? "$6.898" : "$10.900"} · Envío gratis incluido
+              Incluye Envío Gratis
             </p>
           </div>
           <div className="hero-cta reveal delay-4" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.7rem', width: '100%', maxWidth: '480px' }}>
