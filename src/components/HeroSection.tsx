@@ -100,11 +100,11 @@ export default function HeroSection({ color }: HeroSectionProps) {
           <Image
             src={color === "blanco" ? "/assets/kit-blanco.png" : "/assets/kit-negro.png"}
             alt={`Kit AIRBAND Dilatador Nasal Magnético ${color.toUpperCase()}`}
-            width={400}
-            height={600}
+            width={550}
+            height={825}
             className="hero-img floating"
             id="hero-product-img"
-            style={{ objectFit: 'contain', maxHeight: '600px', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))', transform: 'scale(1.15)', transition: 'all 0.5s ease' }}
+            style={{ objectFit: 'contain', width: '100%', height: 'auto', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))', transition: 'all 0.5s ease' }}
             priority
           />
         </div>

@@ -326,10 +326,13 @@ h1 {
 .hero-disclaimer { font-size: 0.8rem; color: var(--text-dim); }
 .hero-image-wrap { flex:1; display:flex; justify-content:center; align-items:center; position:relative; z-index:2; max-width:500px; }
 @media(min-width:900px) {
-    .hero-image-wrap { margin-top: -5.5rem; }
+    .hero-image-wrap { margin-top: -5.5rem; max-width: 650px; }
 }
 .hero-img-glow { position:absolute; width:280px; height:280px; background:radial-gradient(circle, var(--accent-glow) 0%, transparent 70%); border-radius:50%; filter:blur(40px); }
 .hero-img { max-height:65vh; filter:drop-shadow(0 30px 50px rgba(0,0,0,0.6)); position:relative; z-index:2; }
+@media(min-width:900px) {
+    .hero-img { max-height: 80vh; }
+}
 
 /* ─── SOCIAL PROOF BAR ───────────────────── */
 .social-proof-bar {
