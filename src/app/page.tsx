@@ -4,13 +4,12 @@ import { useEffect, useState } from "react";
 import HeroSection from "../components/HeroSection";
 import CompareSection from "../components/CompareSection";
 import BenefitsSection from "../components/BenefitsSection";
-import ScienceSection from "../components/ScienceSection";
 import KitSection from "../components/KitSection";
-import HowSection from "../components/HowSection";
+import VideoSection from "../components/VideoSection";
+import ComboSection from "../components/ComboSection";
+import AboutSection from "../components/AboutSection";
 import TestimoniosSection from "../components/TestimoniosSection";
 import FaqSection from "../components/FaqSection";
-import MouthTapeSection from "../components/MouthTapeSection";
-import ComboSection from "../components/ComboSection";
 
 export default function Home() {
   const [activeColor, setActiveColor] = useState<"blanco" | "negro">("negro");
@@ -166,11 +165,10 @@ export default function Home() {
       <HeroSection color={activeColor} />
       <CompareSection />
       <BenefitsSection />
-      <ScienceSection />
       <KitSection color={activeColor} setColor={setActiveColor} />
-      <HowSection />
+      <VideoSection />
       <ComboSection />
-      <MouthTapeSection />
+      <AboutSection />
       <TestimoniosSection />
       <FaqSection />
     </main>

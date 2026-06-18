@@ -47,8 +47,8 @@ export default function Navbar() {
         </div>
         <ul className="nav-links">
           <li><a href="#beneficios" onClick={closeMenu}>Beneficios</a></li>
-          <li><a href="#ciencia" onClick={closeMenu}>La Ciencia</a></li>
           <li><a href="#kit" onClick={closeMenu}>El Kit</a></li>
+          <li><a href="#nosotros" onClick={closeMenu}>Nosotros</a></li>
           <li><a href="#testimonios" onClick={closeMenu}>Reseñas</a></li>
         </ul>
         <a
@@ -72,8 +72,8 @@ export default function Navbar() {
       {/* MOBILE MENU */}
       <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`} id="mobileMenu">
         <a href="#beneficios" className="mobile-link" onClick={closeMenu}>Beneficios</a>
-        <a href="#ciencia" className="mobile-link" onClick={closeMenu}>La Ciencia</a>
         <a href="#kit" className="mobile-link" onClick={closeMenu}>El Kit</a>
+        <a href="#nosotros" className="mobile-link" onClick={closeMenu}>Nosotros</a>
         <a href="#testimonios" className="mobile-link" onClick={closeMenu}>Reseñas</a>
         <a
           href="https://airband.mitiendanube.com/"

@@ -24,8 +24,8 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Navegación</h4>
             <a href="#beneficios">Beneficios</a>
-            <a href="#ciencia">La Ciencia</a>
             <a href="#kit">El Kit</a>
+            <a href="#nosotros">Nosotros</a>
           </div>
           <div className="footer-col">
             <h4>Soporte</h4>
