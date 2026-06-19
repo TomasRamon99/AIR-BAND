@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function ComboSection() {
   const [tapeColor, setTapeColor] = useState<"negro" | "rosado">("negro");
 
-  const comboLink = "https://airband.mitiendanube.com/";
+  const comboLink = "https://airband.mitiendanube.com/productos/combo-biohacker-airband/";
 
   const mouthTapeTiendaNubeLink = tapeColor === "negro"
     ? "https://airband.mitiendanube.com/productos/cinta-bucal-antironquidos-airband-mouth-tape-pro-descanso-30-unidades-14hba/"
@@ -79,7 +79,7 @@ export default function ComboSection() {
               }}
             >
               <Image
-                src="/assets/kit-negro.png"
+                src="/assets/kit-negro.webp"
                 alt="Kit Dilatador Nasal Negro"
                 width={110}
                 height={110}
@@ -88,7 +88,7 @@ export default function ComboSection() {
               />
               <span style={{ fontSize: "1.5rem", fontWeight: "900", color: "var(--text-dim)" }}>+</span>
               <Image
-                src="/assets/mouth-tape-negro.png"
+                src="/assets/mouth-tape-negro.webp"
                 alt="Mouth Tape Pro"
                 width={110}
                 height={110}
@@ -170,7 +170,7 @@ export default function ComboSection() {
               }}
             >
               <Image
-                src={tapeColor === "negro" ? "/assets/mouth-tape-negro.png" : "/assets/mouth-tape-rosado.png"}
+                src={tapeColor === "negro" ? "/assets/mouth-tape-negro.webp" : "/assets/mouth-tape-rosado.webp"}
                 alt={`AIRBAND Mouth Tape Pro ${tapeColor.toUpperCase()}`}
                 width={120}
                 height={120}

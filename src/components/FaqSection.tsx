@@ -29,7 +29,7 @@ export default function FaqSection() {
   ];
 
   return (
-    <section className="faq-section">
+    <section id="faq" className="faq-section">
       <div className="container" style={{ maxWidth: "800px" }}>
         <h2 className="section-title reveal" style={{ textAlign: "center" }}>Preguntas Frecuentes</h2>
         <div className="faq-grid reveal">

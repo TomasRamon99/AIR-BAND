@@ -98,7 +98,7 @@ export default function HeroSection({ color }: HeroSectionProps) {
         <div className="hero-image-wrap reveal-right">
           <div className="hero-img-glow"></div>
           <Image
-            src={color === "blanco" ? "/assets/kit-blanco.png" : "/assets/kit-negro.png"}
+            src={color === "blanco" ? "/assets/kit-blanco.webp" : "/assets/kit-negro.webp"}
             alt={`Kit AIRBAND Dilatador Nasal Magnético ${color.toUpperCase()}`}
             width={550}
             height={825}

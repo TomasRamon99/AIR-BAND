@@ -24,7 +24,7 @@ export default function KitSection({ color, setColor }: KitSectionProps) {
         <div className="kit-grid">
           <div className="kit-img-wrapper reveal" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <Image
-              src={color === "blanco" ? "/assets/kit-blanco.png" : "/assets/kit-negro.png"}
+              src={color === "blanco" ? "/assets/kit-blanco.webp" : "/assets/kit-negro.webp"}
               alt={`Kit AIRBAND ${color.toUpperCase()}`}
               width={600}
               height={600}

@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function AboutSection() {
   return (
     <section id="nosotros" className="about-section" style={{ padding: "6rem 0", background: "var(--bg-2)", position: "relative", overflow: "hidden" }}>
@@ -11,8 +13,8 @@ export default function AboutSection() {
               Nuestra Historia
             </div>
             <h2 className="section-title" style={{ marginBottom: "1.5rem" }}>
-              Quiénes Somos y <br />
-              <span className="text-accent">Cómo Nació Air Band</span>
+              ¿Quiénes somos y <br />
+              <span className="text-accent">Cómo nació AIR BAND?</span>
             </h2>
             <div style={{ color: "var(--text-muted)", fontSize: "1.05rem", lineHeight: "1.75", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
               <p>
@@ -27,68 +29,26 @@ export default function AboutSection() {
             </div>
           </div>
 
-          {/* Columna Derecha: Foto del Fundador (Placeholder) */}
+          {/* Columna Derecha: Foto del Fundador */}
           <div className="about-image-wrapper reveal-right" style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%" }}>
             <div 
               style={{
                 width: "100%",
-                maxWidth: "400px",
-                height: "450px",
+                maxWidth: "460px",
+                aspectRatio: "1150 / 2048",
                 borderRadius: "var(--r-lg)",
-                background: "linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.05) 100%)",
-                border: "2px dashed rgba(0, 153, 255, 0.3)",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
+                overflow: "hidden",
                 position: "relative",
-                boxShadow: "0 20px 40px rgba(0,0,0,0.4), inset 0 0 20px rgba(255,255,255,0.02)",
-                gap: "1.5rem",
-                padding: "2rem",
-                textAlign: "center"
+                boxShadow: "0 20px 40px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.08)",
               }}
             >
-              {/* Círculo decorativo central */}
-              <div 
-                style={{
-                  width: "100px",
-                  height: "100px",
-                  borderRadius: "50%",
-                  background: "rgba(0, 153, 255, 0.1)",
-                  border: "1px solid rgba(0, 153, 255, 0.3)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  boxShadow: "0 0 20px rgba(0, 153, 255, 0.15)"
-                }}
-              >
-                {/* Ícono de usuario */}
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                  <circle cx="12" cy="7" r="4" />
-                </svg>
-              </div>
-              <div>
-                <h4 style={{ fontFamily: "var(--font-head)", fontSize: "1.2rem", fontWeight: "700", marginBottom: "0.5rem" }}>Fundador de Air Band</h4>
-                <p style={{ color: "var(--text-muted)", fontSize: "0.85rem", maxWidth: "250px", margin: "0 auto" }}>
-                  Foto usando el Kit Air Band
-                </p>
-              </div>
-              <span 
-                style={{ 
-                  fontSize: "0.75rem", 
-                  color: "var(--accent)", 
-                  textTransform: "uppercase", 
-                  letterSpacing: "1.5px",
-                  fontWeight: "600",
-                  background: "rgba(0, 153, 255, 0.08)",
-                  border: "1px solid rgba(0, 153, 255, 0.2)",
-                  padding: "4px 12px",
-                  borderRadius: "20px"
-                }}
-              >
-                Próximamente
-              </span>
+              <Image
+                src="/assets/founder.webp"
+                alt="Fundador de AIR BAND usando el dilatador nasal"
+                fill
+                style={{ objectFit: "contain" }}
+                priority
+              />
             </div>
           </div>
         </div>

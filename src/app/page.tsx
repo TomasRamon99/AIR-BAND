@@ -61,7 +61,7 @@ export default function Home() {
     "name": "AIRBAND Kit Dilatador Nasal Magnético",
     "description": "Kit de dilatación nasal magnética con 4 talles (S/M/L/XL), 60 adhesivos hipoalergénicos y aplicador magnético. El doble de adhesivos que la competencia.",
     "image": [
-      "https://airbando2.com/assets/kit-negro.png"
+      "https://airbando2.com/assets/kit-negro.webp"
     ],
     "brand": {
       "@type": "Brand",
@@ -166,9 +166,9 @@ export default function Home() {
       <CompareSection />
       <BenefitsSection />
       <KitSection color={activeColor} setColor={setActiveColor} />
+      <AboutSection />
       <VideoSection />
       <ComboSection />
-      <AboutSection />
       <TestimoniosSection />
       <FaqSection />
     </main>

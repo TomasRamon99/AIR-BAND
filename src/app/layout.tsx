@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: 'El kit más completo del mercado. 4 talles, 60 adhesivos, tecnología magnética. Mejorá tu sueño y rendimiento.',
     images: [
       {
-        url: 'https://airbando2.com/assets/kit-negro.png',
+        url: 'https://airbando2.com/assets/kit-negro.webp',
         width: 1200,
         height: 630,
         alt: 'AIRBAND Kit Dilatador Nasal Magnético',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'AIRBAND — Dilatador Nasal Magnético',
     description: 'El kit más completo del mercado. 4 talles, 60 adhesivos.',
-    images: ['https://airbando2.com/assets/kit-negro.png'],
+    images: ['https://airbando2.com/assets/kit-negro.webp'],
   },
 };
 

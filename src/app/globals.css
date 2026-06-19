@@ -671,10 +671,20 @@ h1 {
     gap: 1rem;
     position: relative;
     overflow: hidden;
+    transition: var(--trans);
 }
 .checkout-card.recommended {
     background: linear-gradient(135deg, rgba(0, 153, 255, 0.1) 0%, var(--bg-card) 100%);
     border-color: var(--accent);
+}
+.checkout-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--border-hover);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 25px rgba(0, 153, 255, 0.05);
+}
+.checkout-card.recommended:hover {
+    border-color: #33b8ff;
+    box-shadow: 0 20px 40px rgba(0, 153, 255, 0.1), 0 0 30px rgba(0, 153, 255, 0.15);
 }
 @media(min-width: 768px) {
     .checkout-card {
